@@ -1,0 +1,32 @@
+start_test_server_in_background
+exit
+start_test_server_in_background
+query "*"
+query "id"
+query "button_id"
+query "button"
+query "join"
+query "class"
+exit
+start_test_server_in_background
+query "id"
+query "join"
+query "Join"
+query "button"
+query "* id"
+query "*:id"
+touch_btn=query("id:'join_sign_in_button'")touch(touch_btn)
+touch_btn = query("id:'join_sign_in_button'")touch(touch_btn)
+exit
+query "*:id"
+start_test_server_in_background
+query "*:id"
+exit
+start_test_server_in_background
+reinstall_apps
+start_test_server_in_background
+query "*:id"
+exit
+start_test_server_in_background
+query "*:id"
+exit
